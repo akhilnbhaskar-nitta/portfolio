@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Akhil Bhaskar | Unity Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <img src="assets/profile/akhil.jpg" class="profile-pic" />
+  <h1>Nitta Akhil Bhaskar</h1>
+  <h2>Unity Developer | Game Development | Multiplayer Games | XR (AR/VR/MR) Applications</h2>
+
+  <nav class="nav">
+    <button onclick="showHome()">About</button>
+    <button onclick="showSkills()">Skills</button>
+    <button onclick="showProjects()">Projects</button>
+    <button onclick="showContact()">Contact</button>
+    <button onclick="showResume()">Resume</button>
+  </nav>
+</header>
+
+<!-- ABOUT -->
+<section id="home">
+  <h2>About Me</h2>
+  <p>
+    Unity Developer with 4.9 years of experience building high-performance 2D/3D games, real-time multiplayer experiences, and immersive XR (AR/VR/MR) applications. Strong expertise in C#, gameplay programming, performance optimization, asset management, REST APIs, and third-party SDK integrations. Proven track record of delivering smooth, scalable, and engaging user experiences across mobile, PC, Web, and XR platforms.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="hidden">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Unity 3D</div>
+    <div class="skill-card">C#</div>
+    <div class="skill-card">Object-Oriented Programming (OOP)</div>
+    <div class="skill-card">SOLID Principles</div>
+    <div class="skill-card">Design Patterns</div>
+    <div class="skill-card">Game Development</div>
+    <div class="skill-card">Multiplayer Games</div>
+    <div class="skill-card">Photon Fusion</div>
+    <div class="skill-card">Performance Optimization</div>
+    <div class="skill-card">Unity Asset Management</div>
+    <div class="skill-card">REST APIs</div>
+    <div class="skill-card">Virtual Reality (VR)</div>
+    <div class="skill-card">Augmented Reality (AR)</div>
+    <div class="skill-card">Mixed Reality (MR)</div>
+    <div class="skill-card">Git Version Control</div>
+  </div>
+</section>
+
+<!-- PROJECTS GRID -->
+<section id="projects" class="hidden">
+  <h2>Key Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-tile">
+      <img src="assets/icons/Kartchase.png" />
+      <h3>Kart Chase (VR)</h3>
+      <button class="btn" onclick="openProject('kart')">View Details</button>
+    </div>
+
+    <div class="project-tile">
+      <img src="assets/icons/Ultimateludo.png" />
+      <h3>Ultimate Ludo (Multiplayer)</h3>
+      <button class="btn" onclick="openProject('ludo')">View Details</button>
+    </div>
+
+    <div class="project-tile">
+      <img src="assets/icons/Countercover.png" />
+      <h3>Counter Cover Killer (FPS Game)</h3>
+      <button class="btn" onclick="openProject('fps')">View Details</button>
+    </div>
+
+    <div class="project-tile">
+      <img src="assets/icons/Footballcity.png" />
+      <h3>Football City Hunt (AR)</h3>
+      <button class="btn" onclick="openProject('ar')">View Details</button>
+    </div>
+
+    <div class="project-tile">
+      <img src="assets/icons/WildRun.png" />
+      <h3>Wild Run Safari Shooter (Mobile Game)</h3>
+      <button class="btn" onclick="openProject('wild')">View Details</button>
+    </div>
+  </div>
+
+  <div class="explore-more-wrapper">
+  <a
+    href="https://drive.google.com/drive/folders/1IWUHgMCHGtoMqUqEJ7Om_Dix-3AF7nfh"
+    target="_blank"
+    class="btn"
+  >
+    Explore More Projects
+  </a>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="hidden">
+  <h2>Contact</h2>
+  <p>📧 <a href="mailto:akhil.n.bhaskar@gmail.com">akhil.n.bhaskar@gmail.com</a></p>
+  <p>📱 +91 93927 19155</p>
+  <p>🔗 <a href="https://www.linkedin.com/in/akhil-bhaskar-nitta-88b88b392" target="_blank">LinkedIn</a></p>
+  <p>📍 Bengaluru, India</p>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="hidden">
+  <a href="https://drive.google.com/drive/folders/1iELDi_SmksgG4pFW5OX1zCMKc4CoHJAs?usp=sharing"
+     target="_blank" class="btn">
+    📄 Download Resume
+  </a>
+</section>
+
+<script src="script.js"></script>
+
+<!-- PROJECT DETAILS PAGE -->
+<section id="projectDetails" class="project-details hidden">
+  <h2 id="detailsTitle"></h2>
+  <p id="detailsDesc"></p>
+  <div id="detailsTech" class="details-tech"></div>
+
+  <div class="details-media">
+    <img id="detailsImg1" />
+    <img id="detailsImg2" />
+    <img id="detailsImg3" />
+    <img id="detailsImg4" />
+    <img id="detailsImg5" />
+  </div>
+
+  <a id="detailsVideo" class="btn" target="_blank">
+    ▶ Watch Gameplay
+  </a>
+
+  <button class="back-btn" onclick="closeProjectDetails()">← Back</button>
+
+</section>
+
+
+</body>
+</html>
