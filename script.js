@@ -41,14 +41,14 @@ function showResume() {
 // ===============================
 const projectData = {
   kart: {
-    title: "Kart Chase (VR)",
+    title: "Kart Chase",
     desc: "Description: A branded VR experience for Kraft on Meta Quest, featuring controller-based gameplay where players collect Kraft products by steering a cart left and right through a virtual supermarket before the timer runs out.",
     img1: "assets/screenshots/Kartchase-1.png",
     img2: "assets/screenshots/Kartchase-2.png",
     img3: "assets/screenshots/Kartchase-3.png",
     img4: "assets/screenshots/Kartchase-4.png",
     img5: "assets/screenshots/Kartchase-5.png",
-    tech: ["Technologies: Unity 3D · C# · Meta XR SDKs · SOLID Principles"],
+    tech: ["Technologies: Unity3D · C# · Meta XR SDKs · SOLID Principles"],
     video:
       "https://drive.google.com/file/d/1E88vxMcBxCANPEa7Rn_2LmegO0KLvynC/view?usp=drive_link"
   },
@@ -60,7 +60,7 @@ const projectData = {
     img3: "assets/screenshots/Ultimateludo-3.png",
     img4: "assets/screenshots/Ultimateludo-4.png",
     img5: "assets/screenshots/Ultimateludo-5.png",
-    tech: ["Technologies: Unity 3D · C# · Photon Fusion · Client Host Mode, Design Patterns"],
+    tech: ["Technologies: Unity3D · C# · Photon Fusion · Client Host Mode, Design Patterns"],
     video:
       "https://drive.google.com/file/d/1GVB7KsdSluYTNgEbJ-ls8pvW1hjIH-y_/view"
   },
@@ -72,7 +72,7 @@ const projectData = {
     img3: "assets/screenshots/Countercover-3.png",
     img4: "assets/screenshots/Countercover-4.png",
     img5: "assets/screenshots/Countercover-5.png",
-    tech: ["Technologies: Unity 3D · C# · Object-Oriented Programming (OOP) · Performance Optimization · Unity Asset Management"],
+    tech: ["Technologies: Unity3D · C# · Object-Oriented Programming (OOP) · Performance Optimization · Unity Asset Management"],
     video:
       "https://drive.google.com/file/d/1W44FSYVKmj_NML-BYbOyji5Rw0sYx4Kw/view"
   },
@@ -84,21 +84,21 @@ const projectData = {
     img3: "assets/screenshots/Footballcity-3.png",
     img4: "assets/screenshots/Footballcity-4.png",
     img5: "assets/screenshots/Footballcity-5.png",
-    tech: ["Technologies: Unity 3D · C# · AR Foundation · ARCore · ARKit · Cross-Platform Deployment"],
+    tech: ["Technologies: Unity3D · C# · AR Foundation · ARCore · ARKit · Cross-Platform Deployment"],
     video:
       "https://drive.google.com/file/d/19THQRLgNxU46AYri50gZtNV6CLvnBUFY/view"
   },
-  wild: {
-    title: "Football City Hunt",
-    desc: "Description: An endless runner and shooter game for Android/iOS with integrating ads and in-app purchases",
-    img1: "assets/screenshots/WildRun-1.png",
-    img2: "assets/screenshots/WildRun-2.png",
-    img3: "assets/screenshots/WildRun-3.png",
-    img4: "assets/screenshots/WildRun-4.png",
-    img5: "assets/screenshots/WildRun-5.png",
-    tech: ["Technologies: Unity 3D · C# · Object-Oriented Programming (OOP) · third-party SDK integrations · Cross-Platform Deployment"],
+  christmas: {
+    title: "Christmas Virtual Cheer",
+    desc: "Description: A Mixed Reality Christmas application contains three games: Decorate a Christmas tree, build toys by fixing the toy parts, and build a gift box stack.",
+    img1: "assets/screenshots/Christmas-1.png",
+    img2: "assets/screenshots/Christmas-2.png",
+    img3: "assets/screenshots/Christmas-3.png",
+    img4: "assets/screenshots/Christmas-4.png",
+    img5: "assets/screenshots/Christmas-5.png",
+    tech: ["Technologies: Unity3D · C# · Meta XR SDKs · Performance Optimization"],
     video:
-      "https://drive.google.com/file/d/1eX8n_B-0a4p7Tp8z5OK2cIRA_miqEpIm/view"
+      "https://drive.google.com/file/d/1iORHtjJeBH37y2L7N5fpWtIy-2LrbYiG/view"
   }
 };
 
