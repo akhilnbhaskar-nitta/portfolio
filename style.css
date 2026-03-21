@@ -203,3 +203,31 @@ section {
   font-size: 28px;
   cursor: pointer;
 }
+
+/* Target only the last section (Freelance) */
+.freelance-highlight {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px 20px;
+  border-radius: 24px;
+
+  /* Background glow effect */
+  background: radial-gradient(circle at top, rgba(56,189,248,0.15), transparent 70%),
+              radial-gradient(circle at bottom, rgba(37,99,235,0.15), transparent 70%),
+              #020617;
+
+  border: 1px solid rgba(56,189,248,0.3);
+
+  box-shadow: 0 0 40px rgba(56,189,248,0.2);
+}
+
+.freelance-highlight h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.freelance-highlight p {
+  color: #cbd5f5;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
